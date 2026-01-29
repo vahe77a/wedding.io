@@ -1,0 +1,258 @@
+@media screen and (max-width: 1150px){
+    .save_date{
+        font-size: 75px;
+    }
+    .photos{width: 100%;}
+}
+
+@media screen and (max-width: 950px){
+    .save_date{
+        font-size: 60px;
+    }
+    .header{
+        gap: 0;
+    }
+    .photo1, .photo2, .photo3{
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .photos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .round{
+        width: 90px;
+        height: 90px;
+        font-size: 25px;
+    }
+    .photo1, .photo2, .photo3{
+        height: 380px;
+    }
+    .invitation h1, h2{
+        font-size: 40px;
+    }
+    .invitation p{
+        font-size: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .last>div{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .save_date{
+        font-size: 53px;
+    }
+    header{
+        justify-content: center;
+        min-height: 0;
+        max-height: 500px;
+    }
+    .names{
+        font-size: 60px;
+    }
+    .photo1, .photo2,.photo3{
+        background-size: 100% 100%;
+        height: 270px;
+        
+    }
+    .photos{
+        gap: 0px;
+        justify-content: space-around;
+    }
+    .round{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .cd__item{
+        min-width: 80px;
+    }
+    .cd__label{
+        font-size: 10px;
+    }
+    .cd__num{
+        font-size: 25px;
+    }
+    .last>div{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .save_date{
+        font-size: 45px;
+        width: 350px;
+    }
+
+    header{
+        min-height: 0;
+        max-height: 400px;
+    }
+    .names{
+        font-size: 55px;
+    }
+    .photo1, .photo2,.photo3{
+        height: 230px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .photo1, .photo2,.photo3{
+        height: 210px;
+    }
+    .names{
+        font-size: 50px;
+    }
+    .save_date{
+        font-size: 40px;
+    }
+    .invitation h1, h2, h3{
+        font-size: 35px;
+    }
+    .line{
+        top: 72px;
+    }
+
+    .cd__item{
+        padding: 8px 4px;
+        min-width: 60px;
+    }
+    .cd__num {
+        font-size: 20px;
+    }
+    .cd__label {
+        font-size: 7px;
+    }
+    .cd{
+        gap: 0;
+        justify-content: center;
+    }
+    .locations{
+        width: 350px;
+    }
+    .line-svg{
+        width: 170px!important;
+        height: 520px!important;
+    }
+    .locations>div{
+        height: 85px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+
+    footer img{
+        width: 25px;
+    }
+
+    footer p{
+        font-size: 30px;
+    }
+
+    .img{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .names{
+        font-size: 45px;
+    }
+    .save_date{
+        font-size: 35px;
+    }
+    .day{
+        gap: 50px;
+    }
+    .day>div{
+        gap: 25px;
+    }
+    .last>div{
+        width: 75%;
+    }
+    .photo1, .photo2,.photo3{
+        height: 170px;
+    }
+    .invitation h1, h2{
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 32px;
+    }
+    .line{
+        top: 64px;
+    }
+    .invitation p{
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+    .photo1, .photo2,.photo3{
+        height: 160px;
+    }
+    .line-svg{
+        height: 450px!important;
+    }
+    .hours{
+        font-size: 25px;
+    }
+    .address{
+        font-size: 14px;
+    }
+    .locations>div{
+        height: 75px;
+    }
+    .line{
+        top: 68px;
+    }
+    .locations{
+        width: 310px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .photo1, .photo2,.photo3{
+        height: 150px;
+    }
+    .cd__item{
+        padding: 8px 0px;
+        min-width: 50px;
+    }
+    .line-svg{
+        height: 425px!important;
+    }
+    .locations>div{
+        height: 70px;
+    }
+    .locations{
+        padding-top: 18px;
+        width: 300px;
+    }
+
+    footer img{
+        width: 22px;
+    }
+
+    footer p {
+        font-size: 22px;
+    }
+}
