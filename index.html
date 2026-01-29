@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 
-<body>
+<body onload="playAudio()">
     <header>
         <div class="save_date anim_items">
             SAVE THE DATE
@@ -212,15 +212,9 @@
 
 
 
-    <!-- <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="2f308c7a-3003-4a31-972d-4d292f8e0635">
-
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-
-        <textarea name="message" required></textarea>
-        <button type="submit">Submit</button>
-    </form> -->
+    <audio id="myAudio">
+      <source src="song.mp3" type="audio/mpeg">
+    </audio>
 
 
 
@@ -238,8 +232,15 @@
 
 
 
+    <script>
+        let x = document.getElementById("myAudio"); 
 
+        function playAudio() { 
+          x.play(); 
+        }
+    </script>
     <script src="./script.js"></script>
 </body>
+
 
 </html>
