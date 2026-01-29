@@ -190,7 +190,11 @@
 
 
         
-        
+    let audio = new Audio;
+    audio.src = "song.mp3"
+    document.addEventListener("touchstart", () => {
+        audio.play()
+    })
         
         
         
@@ -199,4 +203,5 @@
         
         
     }) ()
+
         
